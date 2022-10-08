@@ -1,2 +1,2 @@
 # Lab1
-OPS445 - Lab1
+Lab 1 repository
