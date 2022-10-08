@@ -1,0 +1,18 @@
+#==================================================#
+#LabName: lab5 - lab1
+#Description: A function that takes an 
+#input from the user and calculate someone’s age
+#AuthorName: Carmela Isabel Rambacud
+#AuthorStudent#: 144524204
+#OPS445 NBB - Ben Singh
+#==================================================#
+
+
+
+#!/usr/bin/env python3
+
+birthYear = input('What year were you born?: ')
+currentYear = input('What is the current year?: ')
+age = int(currentYear) - int(birthYear)
+
+print('You are ' + str(age) + ' years old!')
