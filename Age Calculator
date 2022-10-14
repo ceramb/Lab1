@@ -12,15 +12,15 @@
 #!/usr/bin/env python3
 
 def ageCalc():
-    bdate=input('Enter date of birth: ')
-    cyear=input('Enter current year: ')
-    age= int(cyear) -int(bdate)
-    return age
+    try:
+        bdate=input('Enter date of birth: ')
+        cyear=input('Enter current year: ')
+        age= int(cyear) -int(bdate)
+        return age
+    except(ValueError):
+        return('Please enter an int')
 
 print (ageCalc())
-
-def helloWorld():
-	print(‘Hello World’)
 
 
 helloWorld()
