@@ -16,3 +16,11 @@ currentYear = input('What is the current year?: ')
 age = int(currentYear) - int(birthYear)
 
 print('You are ' + str(age) + ' years old!')
+
+def helloWorld():
+	print(‘Hello World’)
+
+
+helloWorld()
+
+
